@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  font-family: 'Anek Telugu', sans-serif;
+  background-color: #E5E5E5;
+}
+
+/* header-css-code */
+
+header .container {
+  border-bottom: 2px solid red;
+  padding-bottom: 30px;
+}
+
+header .col-12,
+header .col-4 {
+  padding: 0;
+}
+
+.card-logo {
+  display: block;
+  width: 20vh;
+  height: 5vh;
+}
+
+.header-top-image {
+  margin-top: 10px;
+  width: 350px;
+  height: 350px;
+}
+
+.food-title {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.food-desc {
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.Recipe-button {
+  border-radius: 5px;
+  border: 0;
+  width: 110px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 12px;
+  background-color: #FF4500;
+}
+
+header .row:last-child .Recipe-button {
+  margin-top: 20px;
+}
+
+/* section css code */
+.section-title {
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+section .row:last-child {
+  margin-top: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.soup-img {
+  width: 150px;
+  height: 150px;
+  background-image: url('./assets/image/img-12.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.cupcake-img {
+  width: 150px;
+  height: 150px;
+  background-image: url('./assets/image/img-11.jpg');
+  background-size: contain;
+  background-position: center center;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.card .Recipe-button {
+  margin-top: 22px;
+}
+
+/* footer css code */
+footer {
+  width: 50vh;
+}
+
+.follow-locate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  background-color: #FF7F50;
+}
+
+footer .follow-locate .col-5 {
+  text-align: center;
+}
+
+.footer-title {
+  display: block;
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.sns-imgs {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.sns-imgs img {
+  margin: 0 5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+footer .follow-locate .col-12:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .follow-locate .col-12:last-child .footer-title {
+  margin-top: 20px;
+}
+
+.location-address {
+  margin-top: 3px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 0;
+  list-style-type: none;
+  
+}
+
+.footer-list li {
+  margin: 0 15px;
+}
+
+.footer-list a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+}
