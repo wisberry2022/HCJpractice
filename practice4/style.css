@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 2.2px;
+  border-radius: 10px;
+  border: 1px solid #DCDCDC;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* header css code */
+header .container .row:last-child {
+  padding: 16px;
+}
+
+.header-logo {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 9vh;
+  background-color: #0185D0;
+}
+
+header .container .row:last-child {
+  margin-top: 5px;
+}
+
+.header-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 465px;
+  background-image: url('./assets/image/img-4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left;
+}
+
+.header-title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  width: 95%;
+  height: 58%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header-title {
+  font-size: 35px;
+  letter-spacing: 0.06em;
+  line-height: 40px;
+  color: #0185D0;
+  text-transform: uppercase;
+}
+
+.header-desc {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/* main css code */
+main {
+  margin-top: 15px;
+}
+
+.main-title {
+  text-transform: uppercase;
+  color: #0185D0;
+  font-size: 30px;
+  text-align: center;
+  line-height: 42px;
+}
+
+main .container .row:last-child .col-12:first-child {
+  margin-top: 5px;
+}
+
+.image-frame {
+  margin-top: 50px;
+  border-radius: 6px;
+  width: 100%;
+  height: 320px;
+}
+
+.run-image {
+  background-image: url('./assets/image/img-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.active-date {
+  display: block;
+  margin-top: 10px;
+}
+
+.active-name {
+  margin-top: -5px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.more-info-button {
+  display: block;
+  margin-top: 15px;
+  background-color: #0185D0;
+  border-radius: 6px;
+  width: 110px;
+  padding: 9px 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.book-image {
+  background-image: url('./assets/image/img-6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.recycle-image {
+  background-image: url('./assets/image/img-7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* aside css code */
+aside {
+  margin-top: 10px;
+  padding: 50px 16px;
+}
+
+.aside-box {
+  border-radius: 11px;
+  padding: 20px 40px 40px 10px;
+  background-color: #0185D0;
+  text-align: left;
+}
+
+.aside-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.aside-desc {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/* section css code */
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 29px;
+  color: #0185D0;
+}
+
+section .container .row:nth-child(2) {
+  margin-top: 25px;
+}
+
+section .container .row:last-child {
+  margin-top: 50px;
+}
+
+.section-image-frame {
+  width: 100%;
+  height: 320px;
+}
+
+.help-image {
+  background-image: url('./assets/image/img-8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.update-title {
+  margin-top: 15px;
+  line-height: 32px;
+}
+
+.update-desc {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+section .more-info-button {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.environment-image {
+  background-image: url('./assets/image/img-9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* footer css code */
+footer {
+  margin-top: 60px;
+}
+
+.follow-box {
+  padding: 35px 20px;
+  background-color: #0185D0;
+}
+
+.follow-title {
+  display: block;
+  text-align: center;
+  color: #4A4A4A;
+}
+
+.sns-lists {
+  -webkit-padding-start: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.sns-lists img {
+  display: block;
+  margin: 0 6px;
+  width: 30px;
+  height: 30px;
+}
+
+.footer-links {
+  -webkit-padding-start: 0px;
+  padding: 40px;
+  list-style-type: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.footer-links li:nth-child(n+2) {
+  margin-top: 16px;
+}
+
+@media screen and ( min-width:768px ) {
+  body {
+    margin: 2.2px 82px;
+  }
+  
+  /* header css code */
+  header .container .row:last-child {
+    padding: 16px 30px;
+  }
+
+  .header-logo {
+    height: 6vh;
+  }
+
+  .header-background {
+    height: 377px;
+  }
+
+  .header-title-box {
+    width: 98%;
+    height: 45%;
+  }
+
+  .header-title {
+    font-size: 30px;
+    letter-spacing: 0.06em;
+  }
+
+  .header-desc {
+    margin-top: 10px;
+    padding: 0 40px;
+    font-size: 17px;
+  }
+
+  /* main css code */
+  .main-title {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  main .container .row:last-child .col-12:first-child {
+    margin-top: 0;
+  }
+  
+  .image-frame {
+    width: 100%;
+    height: 172px;
+    margin-right: 0;
+  }
+
+  .active-date {
+    font-weight: 600;
+  }
+
+  .active-name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .more-info-button {
+    margin-top: 20px;
+  }
+
+  /* section css code */
+  section .container .row:last-child {
+    margin-top: 70px;
+  }
+
+  section .container .row:last-child {
+    margin-top: 45px;
+  }
+
+  section .container .row:nth-child(n+2) .col-md-6:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .section-image-frame {
+    width: 260px;
+    height: 219px;
+  }
+
+  .update-title {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .update-desc {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+
+  /* footer css code */
+  footer {
+    margin-top: 80px;
+  }
+
+  .follow-title {
+    font-size: 13px;
+  }
+
+  .sns-lists img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0;
+    font-size: 14px;
+  }
+
+  .footer-links li:nth-child(n+2) {
+    margin-top: 0;
+  }
+
+  .footer-links li {
+    margin: 0 10px;
+  }
+}
