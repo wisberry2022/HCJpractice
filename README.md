@@ -11,6 +11,10 @@ HTML과 CSS, JAVASCRIPT를 이용하여 간단한 페이지부터 시작하여 �
   -> iPhone SE (375x667) Size에 맞추어 제작
   -> 추수감사절(모바일 화면) 
 
-3.practic3 folder
+3.practice3 folder
   -> iPhone SE (375x667) & iPad Mini(768x1024) Size에 맞추어 제작(반응형으로 제작)
   -> School Circle News 화면
+
+4. practice4 folder
+  -> iPhone SE (375x667) & iPad Mini(768x1024) Size에 맞추어 제작(반응형으로 제작)
+  -> General Announcement(동아리 활동 소식 알림)
